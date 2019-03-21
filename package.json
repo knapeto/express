@@ -4,9 +4,13 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "local-cors-proxy": "^1.0.2"
+    "chalk": "^2.4.2",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "local-cors-proxy": "^1.0.2",
+    "request": "^2.88.0"
   },
   "scripts": {
-    "start": "lcp --proxyUrl https://helsana-trails.coservice.ch"
+    "start": "node index.js"
   }
 }
