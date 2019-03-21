@@ -35,4 +35,4 @@ var startProxy = function(port, proxyUrl, proxyPartial) {
   );
 };
 
-startProxy(8010, 'https://helsana-trails.coservice.ch', '/proxy');
+startProxy(80, 'https://helsana-trails.coservice.ch', '/proxy');
