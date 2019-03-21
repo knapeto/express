@@ -3,5 +3,8 @@
   "name": "express",
   "routes": [
     { "src": "/(.*)", "dest": "index.js" }
+  ],
+  "builds": [
+    { "src": "*.js", "use": "@now/node-server" }
   ]
 }
